@@ -1,0 +1,150 @@
+@media screen and (min-width:880px)
+{
+ form
+ {
+    width:50vw;
+     height:90vh;
+    backdrop-filter:blur(4px);
+    
+     border-radius:40px;
+     margin-top:0px;
+     margin-bottom:0px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ form input
+ {
+    position: relative;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    margin-top:0px;
+    margin-bottom:10px;
+    width:200px;
+    height:30px;
+   transform:translateY(55px);
+    border-radius:25px;
+    left:0px;
+    font-size:18px;
+   display: flex;
+ }
+ body
+ {
+     background-image: url('8.jpg');
+     background-repeat: no-repeat;
+     background-position:center;
+     background-size: cover;
+     background-attachment:fixed;
+     
+ }
+input[name="envoiet"]
+{
+    width:100px;
+    position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+    color:blue;
+    bottom:0px;
+    background-color:rgb(187, 144, 144);
+}
+a
+{
+  position: absolute;
+  right:350px;
+  left:200px;
+  width:60px;
+  top:25px;
+margin-left:70px;
+  display:flex;
+  background-color:white;
+  color:black;
+  border-radius:5px;
+}
+legend
+{
+    position:absolute;
+   right:350px;
+   left:200px;
+   top:10px;
+   font-size:24px;
+   margin-left:auto;
+   margin-right: auto;
+   color:brown;
+}
+}
+@media screen and (max-width:879px)
+{
+  form
+  {
+     width:60vw;
+      height:90vh;
+     
+     
+      border-radius:40px;
+      margin-top:0px;
+      margin-bottom:0px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  form input
+  {
+     position: relative;
+     margin-left: auto;
+     margin-right:auto;
+     text-align: center;
+     margin-top:0px;
+     margin-bottom:10px;
+     width:200px;
+     height:30px;
+    transform:translateY(55px);
+     border-radius:25px;
+     left:0px;
+     font-size:18px;
+    display: flex;
+  }
+  body
+  {
+      background-image: url('55.jpg');
+      background-repeat: no-repeat;
+      background-position:center;
+      background-size: cover;
+      background-attachment:fixed;
+      backdrop-filter:blur(2px);
+      
+  }
+ input[name="envoiet"]
+ {
+     width:100px;
+     position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+     color:red;
+     bottom:25px;
+     background-color:rgb(187, 144, 144);
+ }
+ a
+ {
+  position:absolute;
+  right:0px;
+  left:250px;
+  top:10px;
+  width:60px;
+ margin: auto;
+   display:flex;
+   background-color:white;
+   color:black;
+   border-radius:5px;
+ }
+ legend
+ {
+     position:absolute;
+    right:490px;
+    top:10px;
+    font-size:24px;
+    margin-left:40px;
+    color:brown;
+ }
+}
+
